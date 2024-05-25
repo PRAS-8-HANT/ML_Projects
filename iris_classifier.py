@@ -18,7 +18,7 @@ petal_width = st.number_input(label="Enter Petal Width",placeholder="Enter Petal
 pred = st.button("Predict",use_container_width=True)
 
 if pred:
-    if any([sepal_length is None, sepal_width is None, petal_length is None, Touchscreen is None,  petal_width  is None]):
+    if any([sepal_length is None, sepal_width is None, petal_length is None, petal_width  is None]):
         st.error("Please, Select all Inputs before Pressing Predict Button.",icon="📝")
     else:
         prediction = int(model.predict(df))
