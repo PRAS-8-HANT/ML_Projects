@@ -32,4 +32,4 @@ if pred:
         if prediction == "":
             st.error("Please select Valid Inputs.", icon="⚠️")
         else:
-            st.success(f"The Flower Species is :" ,{prediction}, icon="✅")
+            st.success(f"The Flower Species is : {prediction}", icon="✅")
