@@ -12,10 +12,10 @@ st.markdown("<div style='background-color:#C40C0C; border-radius:50px; align-ite
 st.write("")
 st.write("")
 
-sepal_length = st.number_input(label="Enter Sepal Length",placeholder="Enter Sepal Length",value=None,min_value=4.3,max_value=7.9,step=0.1)
-sepal_width = st.number_input(label="Enter Sepal Width",placeholder="Enter Sepal Width",value=None,min_value=2.0,max_value=4.4,step=0.1)
-petal_length = st.number_input(label="Enter Petal Length",placeholder="Enter Petal Length",value=None,min_value=1.0,max_value=6.9,step=0.1)
-petal_width = st.number_input(label="Enter Petal Width",placeholder="Enter Petal Width",value=None,min_value=0.1,max_value=2.5,step=0.1)
+sepal_length = st.number_input(label="Enter Sepal Length (cm)",placeholder="Enter Sepal Length (cm)",value=None,min_value=4.3,max_value=7.9,step=0.1)
+sepal_width = st.number_input(label="Enter Sepal Width (cm)",placeholder="Enter Sepal Width (cm)",value=None,min_value=2.0,max_value=4.4,step=0.1)
+petal_length = st.number_input(label="Enter Petal Length (cm)",placeholder="Enter Petal Length (cm)",value=None,min_value=1.0,max_value=6.9,step=0.1)
+petal_width = st.number_input(label="Enter Petal Width (cm)",placeholder="Enter Petal Width (cm)",value=None,min_value=0.1,max_value=2.5,step=0.1)
 
 data = [{'sepal_length': sepal_length, 'sepal_width': sepal_width,'petal_length': petal_length,'petal_width':petal_width}]
 col = ['sepal_length','sepal_width','petal_length','petal_width']
