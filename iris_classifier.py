@@ -21,7 +21,7 @@ if pred:
     if any([sepal_length is None, sepal_width is None, petal_length is None, petal_width  is None]):
         st.error("Please, Select all Inputs before Pressing Predict Button.",icon="📝")
     else:
-        prediction = int(model.predict(df))
+        prediction = int(model.predict(sepal_length,sepal_width,petal_length,petal_width))
         if prediction == "":
             st.error("Please select Valid Inputs.", icon="⚠️")
         else:
