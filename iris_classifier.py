@@ -18,7 +18,7 @@ if pred:
         st.error("Please, Select all Inputs before Pressing Predict Button.",icon="📝")
     else:
         prediction = int(model.predict(df8))
-        if prediction < 0:
+        if prediction = "":
             st.error("Please select Valid Inputs.", icon="⚠️")
         else:
             st.success(f"The Flower Species is : {prediction}", icon="✅")
