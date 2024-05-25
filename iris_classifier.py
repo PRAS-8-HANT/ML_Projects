@@ -34,4 +34,4 @@ if pred:
         if prediction == "":
             st.error("Please select Valid Inputs.", icon="⚠️")
         else:
-            st.success(f"The Flower Species is : {listToStr}", icon="✅")
+            st.success(f"The Flower Species is {listToStr}", icon="✅")
