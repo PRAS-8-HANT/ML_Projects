@@ -29,7 +29,8 @@ if pred:
         st.error("Please, Select all Inputs before Pressing Predict Button.",icon="📝")
     else:
         prediction = model.predict(df)
+        prediction = listToString(prediction)
         if prediction == "":
             st.error("Please select Valid Inputs.", icon="⚠️")
         else:
-            st.success(f"The Flower Species is : {listToString(prediction)}", icon="✅")
+            st.success(f"The Flower Species is : {prediction}", icon="✅")
