@@ -7,7 +7,7 @@ with open('iris.pkl', 'rb') as file:
     model = pickle.load(file)
 
 st.set_page_config(page_title="Iris Species Predictor",page_icon="🪷",layout="centered")
-st.markdown("<div style='background-color:#C40C0C; border-radius:50px; align-items:center; justify-content: center;'><h1 style='text-align:center; color:white;'>✨ Iris Species Predictor ✨ </h1></div>",unsafe_allow_html=True)
+st.markdown("<div style='background-color:#C40C0C; border-radius:50px; align-items:center; justify-content: center;'><h1 style='text-align:center; color:white;'>🌻 Iris Species Predictor 🌼 </h1></div>",unsafe_allow_html=True)
 #st.markdown("<h4 style='text-align:center; color:black;'>Find the Best Price for Your Laptop</h4>",unsafe_allow_html=True)
 st.write("")
 st.write("")
