@@ -3,3 +3,4 @@ pandas
 streamlit
 pip
 scikit-learn
+hugchat = 0.0.8
